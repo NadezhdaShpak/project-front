@@ -1,0 +1,80 @@
+table {
+    font-size: 14px;
+    max-width: 50%;
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    /*border-spacing: 1px;*/
+    border-top: 7px solid #2b3f80;
+    border-bottom: 7px solid #9baff1;
+}
+th {
+    font-size: 13px;
+    font-weight: normal;
+    background: #e8edff;
+    border-right: 1px solid #9baff1;
+    border-left: 1px solid #9baff1;
+    border-top: 1px solid #2b3f80;
+    border-bottom: 1px solid #2b3f80;
+    border-spacing: 1px;
+    color: #039;
+    padding: 8px;
+}
+td {
+    background: #e8edff;
+    border-right: 1px solid #aabcfe;
+    border-left: 1px solid #aabcfe;
+    border-bottom: 1px solid #2b3f80;
+    border-top: 1px solid #2b3f80;
+    border-spacing: 1px;
+    color: #669;
+    padding: 8px;
+}
+
+.page-button {
+    background-color: #9baff1; /* Изначальный цвет */
+    border: 1px solid #9baff1;
+    color: #039;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.page-button:hover {
+    background-color: #aabcfe; /* Цвет при наведении */
+}
+
+.page-button:active {
+    background-color: #475fac; /* Цвет при нажатии */
+}
+.active {
+    background-color: #536dc1;
+}
+label {
+    color: #2b3f80;
+    font-size: 14px;
+}
+select {
+    color: #2b3f80;
+    background-color: #aabcfe;
+}
+h1 {
+    color: #2b3f80;
+}
+h2 {
+    color: #2b3f80;
+}
+input {
+    color: #2b3f80;
+    background-color: #aabcfe;
+    border: 1px solid #2b3f80;
+}
+button {
+    border: #2b3f80;
+    background: #e8edff;
+
+}
+#myImg {
+    width: 20%;
+}
